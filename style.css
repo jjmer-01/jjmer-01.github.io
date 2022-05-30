@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: 125px;
+  background-color: #bedecc;
+  /* background-color: #e9adb0; */
+  background-image: url("/hammer-tile-transparent.png");
+  background-repeat: repeat;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  max-height: 100%;
+}
+
+p {
+  color: #fff;
+  text-shadow: -3px 3px 3px #b0b00e;
+  font-family: "Shrikhand", sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+img {
+  max-width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  display: block;
+  padding: -30px 10px;
+}
+
+.highlight-text {
+  background-color: #cfcf10;
+  box-shadow: -3px 3px 5px #a2a2a2;
+}
+
+.top {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.bottom {
+  font-size: 20px;
+  bottom: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: -3px 3px 5px #a2a2a2;
+  display: inline;
+}
+
+a:link {
+  color: #fff;
+  background-color: #cfcf10;
+}
+
+a:hover {
+  background-color: #c828c8;
+}
+
+a:visited {
+  color: #fff;
+}
+
+/*test*/
